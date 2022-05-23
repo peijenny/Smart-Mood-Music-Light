@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_bg"
+    tools:context=".HrSettingActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="376dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textColor="#DEFAFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="查看設定"
+            android:textColor="#C4686C"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/example5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/setting_icon1" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text="時間"
+                    android:textColor="#00094D"
+                    android:textSize="15sp" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/setting_icon2" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text="狀態"
+                    android:textColor="#00094D"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="顯示情緒"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="18dp"
+                    android:gravity="center"
+                    android:text="當前心跳值"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/setting_icon3" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text="類別"
+                    android:textColor="#00094D"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="顯示類別"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView62"
+                    android:layout_width="105dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="18dp"
+                    android:gravity="center|left|center_vertical"
+                    android:text="　歌單　"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/setting_icon4" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text="歌曲"
+                    android:textColor="#00094D"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="18dp"
+                    android:gravity="center"
+                    android:text="顯示歌曲"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="25dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/setting_icon5" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center|left"
+                    android:text="燈光"
+                    android:textColor="#00094D"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="18dp"
+                    android:background="#EEE7A6"
+                    android:gravity="center"
+                    android:text="顯示燈光"
+                    android:textColor="#7C7C7C"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="開始"
+                    android:textColor="#0000094D"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="顯示日期"
+                    android:textColor="#00000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="18dp"
+                    android:gravity="center"
+                    android:text="顯示時間"
+                    android:textColor="#00000000"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

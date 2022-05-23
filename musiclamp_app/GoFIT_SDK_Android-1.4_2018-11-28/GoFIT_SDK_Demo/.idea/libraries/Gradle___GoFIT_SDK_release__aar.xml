@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :GoFIT_SDK-release:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9bf05c8c2b89cde32b97fd236179c9d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d9bf05c8c2b89cde32b97fd236179c9d/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_bg"
+    tools:context=".ManualActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="376dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="75dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:gravity="center|right"
+                android:text="藍芽連線音樂燈"
+                android:textColor="#DFB5C3"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ble_icon"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="手動設定"
+            android:textColor="#C4686C"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="646dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/light_icon5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example2"
+                android:text="辦公模式"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example3"
+                android:text="放鬆模式"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example3"
+                android:text="早晨模式"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example3"
+                android:text="夜晚模式"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example2"
+                android:text="預設歌單"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example3"
+                android:text="個人歌單"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/date_icon" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="日期"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/time_icon" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="時間"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/example"
+            android:text="確認設定"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_bg"
+    tools:context=".ModifyActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="376dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton23"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_icon" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="75dp"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:gravity="center|right"
+                android:text="藍芽連接檯燈"
+                android:textColor="#3F51B5"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton24"
+                android:layout_width="32dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ble_icon" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="修改設定"
+            android:textColor="#C4686C"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="646dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/example1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/example6"
+                    android:text="變更"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:text="取消"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/light_icon1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example2"
+                android:text="辦公模式"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example3"
+                android:text="放鬆模式"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example3"
+                android:text="早晨模式"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example3"
+                android:text="夜晚模式"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example2"
+                android:text="預設歌單"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="81dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/example3"
+                android:text="個人歌單"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="日期"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton25"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/date_icon" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="時間"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton26"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/time_icon" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/example"
+            android:text="確認修改設定"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

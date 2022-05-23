@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="GoFIT Demo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <PreferenceCategory android:title="" >
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="" >
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="" >
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="" >
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="＊請開啟藍芽(安卓手機定位也要開啟)連線\n執行順序: 初始化 (初次配對: ->配對手環->驗證碼)\n ->連線手環->清理資料->測量心率->傳回數據\n" >
+        <Preference
+            android:key="sdk_init_reinit"
+            android:title=" " />
+        <Preference
+            android:key="demo_function_scan"
+            android:title="配對智慧手環" />
+        <Preference
+            android:key="demo_function_new_pairing"
+            android:title="顯示驗證碼" />
+        <Preference
+            android:key="demo_function_connect"
+            android:title="連線智慧手環" />
+        <!--<Preference
+            android:key="demo_function_setting"
+            android:title="4. Device Setting" />-->
+        <Preference
+            android:key="demo_function_sync"
+            android:title="傳回資料數據" />
+        <Preference
+            android:key="demo_function_clear"
+            android:title="清理手環過去資料(建議定期使用)" />
+        <!--<Preference
+            android:key="demo_function_init"
+            android:title="7. Device Data Initialization" />
+        <Preference
+            android:key="demo_function_find_my_care"
+            android:title="8. Find My Care" />
+        <Preference
+            android:key="demo_function_dfu"
+            android:title="9. Device Firmware Update" />
+        <Preference
+            android:key="demo_function_disconnect"
+            android:title="10. Device Disconnect" />
+        <Preference
+            android:key="demo_function_set_connect_timeout"
+            android:title="11. Set Connect Timeout" />-->
+        <Preference
+            android:key="demo_connect_status"
+            android:title="顯示連線狀況" />
+    </PreferenceCategory>
+
+    <!--
+    <PreferenceCategory android:title="DEVICE STATUS" >
+        <Preference
+            android:key="demo_connect_status"
+            android:title="Connect Status" />
+        <Preference
+            android:key="demo_battery"
+            android:title="Battery" />
+        <Preference
+            android:key="demo_mac"
+            android:title="MAC Address" />
+        <Preference
+            android:key="demo_sn"
+            android:title="SN" />
+        <Preference
+            android:key="demo_fw_version"
+            android:title="FW Version" />
+    </PreferenceCategory>-->
+
+</PreferenceScreen>
