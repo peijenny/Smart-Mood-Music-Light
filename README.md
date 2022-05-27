@@ -1,4 +1,4 @@
-# Smart-Mood-Music-Light
+# Smart-MusicLamp
 
 ![Banner](https://i.imgur.com/xVLp7MC.png)
 
